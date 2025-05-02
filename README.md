@@ -57,9 +57,13 @@ SDL2_mixer
 │
 
 ├── word/                  # Word list files (e.g., all.txt, fruits.txt)
+
 ├── image/                 # Game images (e.g., hangman stages, menu background)
+
 ├── sound/                 # Sound effects and music (e.g., background.mp3, found.wav)
+
 ├── Font.ttf               # Font file
+
 └── README.md
 
 
