@@ -50,8 +50,8 @@ SDL2_mixer
 
 Action	                    Key
 Guess a letter	            Press the corresponding key
-Use a hint          	    Press Space
-Exit during game/menu	    Press ESC
+Use a hint          	      Press Space
+Exit during game/menu	      Press ESC
 Confirm / Continue	        Press Enter
 
 
