@@ -1,0 +1,33 @@
+
+Miner
+Teacher
+Bellboy
+Speaker
+Butcher
+Pharmacist
+Politician
+Tour guide
+Entrepreneur
+Astronaut
+Judge
+Lawyer
+Cashier
+Taxi driver
+Plumber
+Musician
+Chef
+Baker
+Artist
+Actor
+Actress
+Bartender
+Bishop
+Optician
+Florist
+Tailor
+Seamstress
+Writer
+Author
+Caretaker
+Bus driver
+Accountant
