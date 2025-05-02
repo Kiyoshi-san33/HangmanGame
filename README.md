@@ -57,13 +57,9 @@ SDL2_mixer
 │
 
 ├── word/                  # Word list files (e.g., all.txt, fruits.txt)
-
 ├── image/                 # Game images (e.g., hangman stages, menu background)
-
 ├── sound/                 # Sound effects and music (e.g., background.mp3, found.wav)
-
 ├── Font.ttf               # Font file
-
 └── README.md
 
 
@@ -81,15 +77,15 @@ SDL2_mixer
 
 🎮 Controls
 
-Action	                    Key
+Action	|                     Key
 
-Guess a letter	            Press the corresponding key
+Guess a letter	|            Press the corresponding key
 
-Use a hint          	      Press Space
+Use a hint   |       	      Press Space
 
-Exit during game/menu	      Press ESC
+Exit during game/menu	  |    Press ESC
 
-Confirm / Continue	        Press Enter
+Confirm / Continue	 |       Press Enter
 
 
 💬 Notes
