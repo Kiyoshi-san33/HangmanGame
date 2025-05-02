@@ -4,15 +4,22 @@ A fun Hangman game built with C++ and SDL2, featuring background music, sound ef
 📜Create by: Đinh Quang Duy - 24022638
 
 📋 Features
+
 🔥 Smooth and colorful SDL2-based graphics.
+
 🎵 Background and menu music, plus sound effects for guesses and game results.
+
 🧠 Hints available during gameplay (press Space).
+
 ⚡ Time-limited gameplay (default: 60 seconds).
+
 🌍 Choose categories like Fruits, Jobs, Countries, and more.
+
 🛡️ Easy and Hard difficulty modes.
 
 
 🛠 Requirements
+
 C++17 or higher
 SDL2
 SDL2_image
