@@ -458,33 +458,30 @@ void HangmanGame::chooseDiff() {
 }
 
 void HangmanGame::renderGameOverSDL(int imageIndx) {
-    string status;
-    if (guessedWord == secretword) 
-    {
-        status = "free";
-    } else {
-        status = "hanged";
-    }
-    window->createImageBackground(status + to_string(imageIndx) + ".png");
+    window->createImageBackground("hang" + to_string(badGuessCount) + ".png");
+    
     if (timeLeft <= 0)
     {
         window->createTextTexture("Time Up!!!", 700, 5);
     }
+
     window->createTextTexture("Win : " + to_string(countwin), 700, 45);
     window->createTextTexture("Loss: " + to_string(countloss), 700, 85);
-    window->createTextTexture( name, 700, 125);
-    
+    window->createTextTexture(name, 700, 125);
+
     if (guessedWord == secretword)
     {
         window->createTextTexture("Congratulations!!! You are free.", 100, 750);
     }
-    else   {
+    else
+    {
         window->createTextTexture("Game Over!!! You are hanged!", 100, 750);
     }
     window->createTextTexture("Correct word: " + secretword, 100, 800);
     window->createTextTexture("Press 'Enter' to keep playing, 'ESC' to exit.", 100, 850);
     window->updateScreen();
 }
+
 
 void HangmanGame::createGameOverSDL() {
     int imageIndx = 0;
