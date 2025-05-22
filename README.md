@@ -98,3 +98,5 @@ If background music or sounds do not load, check that the audio files exist in t
 Word lists for each category are stored in word/ folder as text files.
 Make sure all resources (fonts, images, sounds) are correctly placed relative to the executable.
 
+📷 Game Demo Video :
+https://github.com/user-attachments/assets/94e1dddd-c13b-4fc5-8224-a42e36694735
